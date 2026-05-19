@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ckmohami2h4ci"]
+
+[ext_resource type="Texture2D" uid="uid://6lh1e6kdk5mb" path="res://graphics/waffle_chef.png" id="1_3vyb7"]
+
+[node name="player" type="Node2D" unique_id=1764840856]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=18847174]
+position = Vector2(245, 157)
+scale = Vector2(2.104736, 2.325073)
+texture = ExtResource("1_3vyb7")

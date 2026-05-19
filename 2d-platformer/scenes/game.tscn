@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://blbwrwavf0esm"]
+
+[ext_resource type="PackedScene" uid="uid://b2xac0pyu2001" path="res://scenes/background.tscn" id="1_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://ckmohami2h4ci" path="res://scenes/player.tscn" id="2_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://m1nup2rpqyo2" path="res://character_1.tscn" id="3_lnu2h"]
+
+[node name="game" type="Node2D" unique_id=1879367210]
+
+[node name="background" parent="." unique_id=1059323654 instance=ExtResource("1_yqjtg")]
+position = Vector2(-9, -1)
+
+[node name="player" parent="." unique_id=1764840856 instance=ExtResource("2_lnu2h")]
+position = Vector2(-187, 358)
+
+[node name="character_1" parent="." unique_id=1298489448 instance=ExtResource("3_lnu2h")]
+position = Vector2(145, 0)
