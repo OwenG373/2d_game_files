@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://m1nup2rpqyo2"]
 
+[ext_resource type="Script" uid="uid://b501xl3h7v7q0" path="res://character_1.gd" id="1_f06a8"]
 [ext_resource type="Texture2D" uid="uid://l345aalck8kl" path="res://graphics/character_1_turn.png" id="1_ui45g"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ui45g"]
@@ -60,11 +61,17 @@ animations = [{
 "speed": 10.0
 }]
 
-[node name="character_1" type="Node2D" unique_id=1298489448]
+[node name="character_1" type="CharacterBody2D" unique_id=1281024013]
+script = ExtResource("1_f06a8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2128288396]
-position = Vector2(106, 626.99994)
-scale = Vector2(1.3945313, 1.6328125)
+position = Vector2(64.875, 678.74994)
+scale = Vector2(0.7519531, 0.8242186)
 sprite_frames = SubResource("SpriteFrames_7mk00")
 animation = &"idle"
 frame_progress = 0.71203035
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1215638937]
+position = Vector2(7, 348)
+scale = Vector2(0.55650675, 0.52547765)
+polygon = PackedVector2Array(114, 708, 114, 639, 109, 629, 119, 610, 122, 589, 111, 573, 98, 560, 77, 560, 60, 566, 54, 581, 49, 596, 52, 614, 59, 629, 65, 639, 57, 668, 58, 703, 57, 715, 111, 717)
