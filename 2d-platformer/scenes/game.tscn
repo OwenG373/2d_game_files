@@ -11,11 +11,11 @@ size = Vector2(20, 574)
 
 [node name="game" type="Node2D" unique_id=1879367210]
 
-[node name="character_1" parent="." unique_id=1298489448 instance=ExtResource("3_lnu2h")]
-position = Vector2(375, -26)
-
 [node name="background" parent="." unique_id=1059323654 instance=ExtResource("1_yqjtg")]
 position = Vector2(-9, -1)
+
+[node name="character_1" parent="." unique_id=1298489448 instance=ExtResource("3_lnu2h")]
+position = Vector2(35, -26)
 
 [node name="borders" type="Node2D" parent="." unique_id=124392000]
 
